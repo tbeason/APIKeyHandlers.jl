@@ -1,0 +1,17 @@
+name = "APIKeyHandlers"
+uuid = "55f236ad-624f-45d7-bccc-d0b3d404c2fb"
+authors = ["Tyler Beason <tbeas12@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ConfParser = "88353bc9-fd38-507d-a820-d3b43837d6b9"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+julia = "^1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
